@@ -1,17 +1,19 @@
 public class Pasien extends Person {
     String gejalaPenyakit;
+    String idPasien;
 
-    public Pasien(String gejalaPenyakit, String id, String nama, String alamat, String nomorKontak){
+    public Pasien(String gejalaPenyakit, String id, String nama, String alamat, String nomorKontak, String idPasien){
         super(id, nama, alamat, nomorKontak);
         this.gejalaPenyakit = gejalaPenyakit;
+        this.idPasien = idPasien;
     }
 
-    public String getId() {
-        return id;
+    public String getidPasien() {
+        return idPasien;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setidPasien(String idPasien) {
+        this.idPasien = idPasien;
     }
 
     public String getgejalaPenyakit() {
