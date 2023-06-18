@@ -1,8 +1,8 @@
 public class Person {
-    private String id;
-    private String nama;
-    private String alamat;
-    private String nomorKontak;
+    String id;
+    String nama;
+    String alamat;
+    String nomorKontak;
 
     public Person(String id, String nama, String alamat, String nomorKontak) {
         this.id = id;
