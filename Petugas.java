@@ -6,4 +6,7 @@ public class Petugas extends Person{
         this.idPetugas = idPetugas;
     }
     
+    public void catatRekamMedis(){
+        System.out.println("catatRekam");
+    }
 }
