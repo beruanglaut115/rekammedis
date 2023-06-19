@@ -1,9 +1,9 @@
-public class Registrasi extends Petugas {
+public class Registrasi extends Pasien {
     private String IdPetugas;
     private String IdPasien;
 
     public Registrasi( String idpasien, String gejalapenyakit){
-        super(idpasien);
+        super(gejalapenyakit, idpasien, gejalapenyakit, gejalapenyakit, gejalapenyakit, idpasien);
         this.IdPetugas = IdPetugas;
         this.IdPasien = IdPasien;
     }
