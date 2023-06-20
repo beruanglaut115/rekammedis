@@ -30,28 +30,28 @@ private String kode, nama, nohp, keahlian, alamat;
         Btn_Ubah.setEnabled(false);
         
     }
-    private void form_disable(){
+  private void form_disable(){
         Txt_kode.setEnabled(false);
         Txt_nama.setEnabled(false);
         Txt_alamat.setEnabled(false);
         Txt_keahlian.setEnabled(false);
-        Txt_nohp.setEnabled(false);
-        }
-    private void form_enable(){
-        Txt_alamat.setEnabled(true);
+       Txt_nohp.setEnabled(false);
+       }
+  private void form_enable(){
+      Txt_alamat.setEnabled(true);
         Txt_keahlian.setEnabled(true);
         Txt_kode.setEnabled(true);
         Txt_nama.setEnabled(true);
-        Txt_nohp.setEnabled(true);
+       Txt_nohp.setEnabled(true);
         }
-        private void form_clear(){
-        Txt_kode.setText("");
-        Txt_alamat.setText("");
-        Txt_keahlian.setText("");
-            Txt_nama.setText("");
-            Txt_nohp.setText("");
-            }
-            
+      private void form_clear(){
+       Txt_kode.setText("");
+       Txt_alamat.setText("");
+       Txt_keahlian.setText("");
+         Txt_nama.setText("");
+         Txt_nohp.setText("");
+         }
+      
         private void aksi_tambah(){
         form_enable();
         Btn_Tambah.setEnabled(true);
